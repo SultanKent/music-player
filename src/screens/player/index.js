@@ -29,7 +29,7 @@ export default function Player() {
   }, [currentIndex, tracks]);
 
   return (
-    <div className="screen-container flex">
+    <div className="screen-container">
       <div className="left-player-body">
         <AudioPLayer
           currentTrack={currentTrack}

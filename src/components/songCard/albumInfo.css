@@ -49,3 +49,12 @@
   color: #9aa9c2;
   margin-top: 10px;
 }
+
+@media only screen and (max-width: 560px) {
+  .albumInfo-card {
+    margin-top: 0px;
+  }
+  .album-release {
+    margin-top: 0px;
+  }
+}

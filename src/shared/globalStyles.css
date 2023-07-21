@@ -11,8 +11,16 @@
       #233656 100px
     ),
     repeating-linear-gradient(#1e2a3e55, #1e2a3e);
+    display: flex;
 }
 
 .flex {
   display: flex;
+}
+
+@media only screen and (max-width: 560px) {
+  .screen-container {
+    flex-direction: column;
+    overflow: hidden;
+  }
 }

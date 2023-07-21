@@ -54,3 +54,21 @@
   margin: 0;
   color: #c4d0e3;
 }
+
+@media only screen and (max-width: 1240px) {
+  .player-left-body {
+    display: none;
+  }
+  .player-right-body {
+    width: 100%;
+  }
+  .song-title {
+    font-size: 48px;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .player-body {
+    height: unset;
+  }
+}
