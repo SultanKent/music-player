@@ -88,7 +88,16 @@
 }
 
 @media only screen and (max-width: 560px) {
+  .library-body {
+    flex-wrap: unset;
+    flex-direction: column;
+    align-items: center;
+  }
   .playlist-card {
-    width: 40%;
+    width: 70%;
+  }
+  .playlist-subtitle {
+    position: relative;
+    z-index: 10;
   }
 }
